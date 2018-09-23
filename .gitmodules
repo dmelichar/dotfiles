@@ -1,0 +1,6 @@
+[submodule "os/macos/osx-config-check"]
+	path = os/macos/osx-config-check
+	url = https://github.com/kristovatlas/osx-config-check.git
+[submodule "os/macos/hosts"]
+	path = os/macos/hosts
+	url = https://github.com/StevenBlack/hosts.git

@@ -1,0 +1,40 @@
+# apple stuff
+._*
+.AppleDouble
+.DS_Store
+.localized
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon
+
+# Always-ignore extensions
+*~
+*.diff
+*.err
+*.log
+*.orig
+*.pyc
+*.rej
+*.sass-cache
+*.sw?
+*.vi
+
+# working files
+.vim/viminfo
+.vim/swaps/*
+.vim/undo
+%*
+*.sw[a-z]
+*.un~
+.netrwhist
+Session.vim
+
+# fish shell
+fishd.*
+.config/fish/fish_history
+fish/fish_history
+
+# no thx
+node_modules
+
