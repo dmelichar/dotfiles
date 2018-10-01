@@ -41,7 +41,9 @@ brew install brew-cask-completion
 brew install telnet
 brew install openssl
 brew install r
+brew install pandoc
 brew install gpg2
+brew install gpg-agent
 
 # Dev binaries
 brew install ant
