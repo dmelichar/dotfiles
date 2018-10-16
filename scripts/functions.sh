@@ -49,8 +49,8 @@ get_os() {
 
     if [ "$kernelName" == "Darwin" ]; then
         os="macos"
-    elif [ "$kernelName" == "Linux" ] && [ "$(grep -Ei 'debian|buntu|mint' /etc/*release)" ]; then
-        os="debian"
+    elif [ "$kernelName" == "Linux" ]; then      # Fruther filtering? && [ "$(grep -Ei 'debian|buntu|mint' /etc/*release)" ];
+        os="linux"
     else
         os="$kernelName"
     fi

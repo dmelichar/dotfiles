@@ -10,7 +10,7 @@ set -x -g PATH (brew --prefix coreutils)/libexec/gnubin $PATH
 set -x -g PATH (brew --prefix findutils)/libexec/bin $PATH
 # set -x -g MANPATH (brew --prefix findutils)/libexec/gnuman $MANPATH
 
-# NVM 
+# NVM
 set -g -x NVM_DIR (brew --prefix nvm)/nvm-exec
 
 # THEME PURE #
@@ -24,3 +24,6 @@ set -g -x HOMEBREW_NO_ANALYTICS 1
 
 # GPG
 set -g -x GPG_TTY (tty)
+
+# Pyenv
+status --is-interactive; and source (pyenv init -|psub)

@@ -40,8 +40,6 @@ brew install ssh-copy-id
 brew install brew-cask-completion
 brew install telnet
 brew install openssl
-brew install r
-brew install pandoc
 brew install gpg2
 brew install gpg-agent
 
@@ -52,6 +50,8 @@ brew install fish
 brew install gradle
 brew install maven
 brew install nvm
+brew install python
+brew install pyenv
 
 # Ops binaries
 brew install ansible

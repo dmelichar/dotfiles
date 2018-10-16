@@ -1,14 +1,21 @@
 #!/usr/bin/env bash
 
-DIR=$(dirname "$0")
-cd "$DIR"
+SOURCE="$(realpath .)"
+DESTINATION="$(realpath ~/Library/Application\ Support/Code/User)"
 
 . ../scripts/functions.sh
 
-info "Intalling visual code extensions..."
-
 # Ask for the administrator password upfront
 sudo -v
+
+info "Setting up Visual Studio Code..."
+
+substep_info "Creating Visual Studio Code folders..."
+mkdir -p "$DESTINATION"
+
+find * -not -name "setup.sh" -type f | while read fn; do
+    symlink "$SOURCE/$fn" "$DESTINATION/$fn"
+done
 
 code --install-extension PKief.material-icon-theme
 code --install-extension azemoh.one-monokai
