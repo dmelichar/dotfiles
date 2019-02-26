@@ -52,12 +52,16 @@ brew install maven
 brew install nvm
 brew install python
 brew install pyenv
+brew install hugo
+brew install go
 
 # Ops binaries
 brew install ansible
+brew install terraform
 brew install awscli
 brew install azure-cli
 brew install s3cmd
+brew install hcloud
 
 # Remove outdated versions from the cellar
 brew cleanup

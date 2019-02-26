@@ -10,6 +10,9 @@ set -x -g PATH (brew --prefix coreutils)/libexec/gnubin $PATH
 set -x -g PATH (brew --prefix findutils)/libexec/bin $PATH
 # set -x -g MANPATH (brew --prefix findutils)/libexec/gnuman $MANPATH
 
+# ruby gem 
+set -x -g PATH /Users/dmelichar/.gem/ruby/2.3.0/bin $PATH
+
 # NVM
 set -g -x NVM_DIR (brew --prefix nvm)/nvm-exec
 
@@ -18,6 +21,10 @@ set fish_function_path $HOME/.config/fish/functions/pure $fish_function_path
 
 # OpenSSL
 set -g -x PATH (brew --prefix openssl)/bin/ $PATH
+set -g fish_user_paths "/usr/local/opt/openssl/bin" $fish_user_paths
+set -gx LDFLAGS "-L/usr/local/opt/openssl/lib"
+set -gx CPPFLAGS "-I/usr/local/opt/openssl/include"
+set -gx PKG_CONFIG_PATH "/usr/local/opt/openssl/lib/pkgconfig"
 
 # Homebrew Analytics
 set -g -x HOMEBREW_NO_ANALYTICS 1
@@ -25,5 +32,3 @@ set -g -x HOMEBREW_NO_ANALYTICS 1
 # GPG
 set -g -x GPG_TTY (tty)
 
-# Pyenv
-status --is-interactive; and source (pyenv init -|psub)

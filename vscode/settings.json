@@ -13,7 +13,7 @@
 
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 7,
 
     "python.linting.pylintEnabled": false,
     "python.linting.pep8Enabled": true,
@@ -35,5 +35,6 @@
     "[html]": {
         "editor.tabSize": 2
     },
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "latex-workshop.view.pdf.viewer": "tab"
 }

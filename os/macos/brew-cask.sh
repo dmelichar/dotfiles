@@ -11,7 +11,10 @@ info "Intalling brew casks..."
 # brew tap caskroom/cask
 # brew tap caskroom/versions
 # brew tap caskroom/drivers
-# brew tap caskroom/fonts
+
+# fonts
+brew tap caskroom/fonts
+brew cask install font-awesome
 
 # essential
 brew cask install spectacle
