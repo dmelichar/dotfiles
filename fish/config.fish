@@ -14,7 +14,7 @@ set -x -g PATH (brew --prefix findutils)/libexec/bin $PATH
 set -x -g PATH /Users/dmelichar/.gem/ruby/2.3.0/bin $PATH
 
 # NVM
-set -g -x NVM_DIR (brew --prefix nvm)/nvm-exec
+set -g -x NVM_DIR (brew --prefix nvm)
 
 # THEME PURE #
 set fish_function_path $HOME/.config/fish/functions/pure $fish_function_path
@@ -28,7 +28,7 @@ set -gx PKG_CONFIG_PATH "/usr/local/opt/openssl/lib/pkgconfig"
 
 # Homebrew Analytics
 set -g -x HOMEBREW_NO_ANALYTICS 1
-
+lol
 # GPG
 set -g -x GPG_TTY (tty)
 
