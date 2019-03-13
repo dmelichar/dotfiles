@@ -1,0 +1,1 @@
+choco install -y jre8 git javaruntime openssh curl python virtualbox vscode vim vagrant cmake cmder openvpn
