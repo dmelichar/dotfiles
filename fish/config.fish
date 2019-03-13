@@ -28,7 +28,6 @@ set -gx PKG_CONFIG_PATH "/usr/local/opt/openssl/lib/pkgconfig"
 
 # Homebrew Analytics
 set -g -x HOMEBREW_NO_ANALYTICS 1
-lol
 # GPG
 set -g -x GPG_TTY (tty)
 
