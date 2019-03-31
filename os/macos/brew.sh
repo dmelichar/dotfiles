@@ -42,6 +42,8 @@ brew install telnet
 brew install openssl
 brew install gpg2
 brew install gpg-agent
+brew install openvpn
+brew install bitwarden-cli
 
 # Dev binaries
 brew install ant
