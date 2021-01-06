@@ -42,4 +42,4 @@ python3 updateHostsFile.py --auto --replace --extensions fakenews gambling
 cd ./osx-config-check/
 python app.py --disable-prompt
 
-success "Finished macOs Setup."
+success "Finished macOS Setup."

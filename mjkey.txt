@@ -1,0 +1,20 @@
+MuJoCo Pro Personal license activation key, number 76306, type 6.
+
+Issued to Daniel Melichar <ic18b503@technikum-wien.at>.
+
+Expires January 1, 2022.
+
+This file activates MuJoCo Pro on a single computer with id:
+OSX_91DGE_5A6S023G99NPSYSC244PSLMA001
+
+Do not modify this file. Its entire content, including the
+plain text section, is used by the activation manager.
+
+ed543774a28941ecf34050c3f7792be14673a3488e5f7d32b8d558033de8dbc2
+b71021bce66608ef860deaa690e3a31890c42d297c5b8eaaae396d2904e5c089
+4023fef77f1fb34e88b8c90ae8f42206720b19864fb4fecfeb094dd7d8f1ea88
+8c5f995c83e4eb2ddb83d88c902042a81282543bb3a2651aef0be5afd04c07ce
+94873eab344ea52459981e6e5b8fc464078f16067e77fa0819c25f9c3fcf2951
+59acb643cd695c61fd324c5a09a0791c82f861cd3244c911dec2e28cf0194367
+68fd6fde122df5200caaac902c91ac18991020ae6306b74f60677500f3ead23a
+240dc6285dfdcb00c1c43cdbcdb1d57e9bbe0d2548c24a4d8f762afac6466e9a

@@ -1,9 +1,9 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "One Monokai",
+    "workbench.colorTheme": "Dracula",
 
-    "editor.rulers": [79],
+    "editor.rulers": [80],
     "editor.roundedSelection": false,
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
@@ -11,30 +11,50 @@
     "editor.renderWhitespace": "boundary",
     "editor.renderIndentGuides": true,
 
+    "window.restoreWindows": "none",
+
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "window.zoomLevel": 7,
+    "window.zoomLevel": 2,
 
     "python.linting.pylintEnabled": false,
-    "python.linting.pep8Enabled": true,
-
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "vue"
-    ],
-
-    "[typescript]": {
-        "editor.tabSize": 2
-    },
-
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
+    "python.linting.pycodestyleEnabled": true,
 
     "[html]": {
         "editor.tabSize": 2
     },
     "python.jediEnabled": false,
-    "latex-workshop.view.pdf.viewer": "tab"
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.fontSize": 10,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.startupEditor": "newUntitledFile",
+    "C_Cpp.updateChannel": "Insiders",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "cSpell.enableFiletypes": [
+        "markdown"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "*.html"
+        }
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.languageServer": "Microsoft",
+    "explorer.confirmDragAndDrop": false,
+    "latex-workshop.latex.autoBuild.run": "never"
 }

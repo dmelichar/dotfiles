@@ -26,16 +26,14 @@ brew install wget --with-iri
 
 # Install more recent versions of some OS X tools
 brew install vim --with-override-system-vi
-brew install homebrew/dupes/nano
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install grep
+brew install openssh
+brew install screen
 
 # Install other useful binaries
 brew install git
 brew install tree
 brew install ffmpeg --with-libvpx
-brew install p7zip
 brew install ssh-copy-id
 brew install brew-cask-completion
 brew install telnet
@@ -43,27 +41,20 @@ brew install openssl
 brew install gpg2
 brew install gpg-agent
 brew install openvpn
-brew install bitwarden-cli
 
 # Dev binaries
-brew install ant
 brew install gcc
 brew install fish
 brew install gradle
 brew install maven
 brew install nvm
-brew install python
+brew install python3
 brew install pyenv
-brew install hugo
 brew install go
-
-# Ops binaries
+brew install jq
+brew install doxygen
+brew install helm
 brew install ansible
-brew install terraform
-brew install awscli
-brew install azure-cli
-brew install s3cmd
-brew install hcloud
 
 # Remove outdated versions from the cellar
 brew cleanup
