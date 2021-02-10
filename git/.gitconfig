@@ -169,3 +169,5 @@
 	program = /usr/local/MacGPG2/bin/gpg
 [credential]
 	helper = store
+[init]
+	defaultBranch = main

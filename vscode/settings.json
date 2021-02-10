@@ -56,5 +56,9 @@
     },
     "python.languageServer": "Microsoft",
     "explorer.confirmDragAndDrop": false,
-    "latex-workshop.latex.autoBuild.run": "never"
+    "latex-workshop.latex.autoBuild.run": "never",
+    "extensions.ignoreRecommendations": true,
+    "cSpell.userWords": [
+        "Erneuerung"
+    ]
 }
