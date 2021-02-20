@@ -17,19 +17,19 @@ find * -not -name "setup.sh" -type f | while read fn; do
     symlink "$SOURCE/$fn" "$DESTINATION/$fn"
 done
 
-code install-extension aaron-bond.better-comments
-code install-extension azemoh.one-monokai
-code install-extension donjayamanne.githistory
-code install-extension dracula-theme.theme-dracula
-code install-extension formulahendry.auto-close-tag
-code install-extension formulahendry.auto-rename-tag
-code install-extension James-Yu.latex-workshop
-code install-extension ms-toolsai.jupyter
-code install-extension naumovs.color-highlight
-code install-extension PKief.material-icon-theme
-code install-extension skyapps.fish-vscode
-code install-extension streetsidesoftware.code-spell-checker
-code install-extension streetsidesoftware.code-spell-checker-german
-code install-extension torn4dom4n.latex-support
-code install-extension waderyan.gitblame
-code install-extension yzhang.markdown-all-in-one
+code --install-extension aaron-bond.better-comments
+code --install-extension azemoh.one-monokai
+code --install-extension donjayamanne.githistory
+code --install-extension dracula-theme.theme-dracula
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension James-Yu.latex-workshop
+code --install-extension ms-toolsai.jupyter
+code --install-extension naumovs.color-highlight
+code --install-extension PKief.material-icon-theme
+code --install-extension skyapps.fish-vscode
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension streetsidesoftware.code-spell-checker-german
+code --install-extension torn4dom4n.latex-support
+code --install-extension waderyan.gitblame
+code --install-extension yzhang.markdown-all-in-one
